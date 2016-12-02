@@ -1,0 +1,5 @@
+#activer la reecriture d url
+RewriteEngine on
+#reduriger toutes les url vers web (il ya un htaccess qui fait une autre verification)
+RewriteRule (.*) web/$1 [L]
+

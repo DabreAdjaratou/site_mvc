@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Controller.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/modele/Post.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Modele.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/web/index.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/vue/errors/404.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Dispatcher.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/vue/layout/default.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/vue/page/view.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Include.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Request.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/controller/PageController.php</file>
+            <file>file:/C:/wamp/www/web/site_mvc/core/Router.php</file>
+        </group>
+    </open-files>
+</project-private>
