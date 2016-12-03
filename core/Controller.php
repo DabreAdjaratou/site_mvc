@@ -64,7 +64,17 @@ class Controller {
                     
         } //else {  echo 'pas charger'; } 
         
+        }
         
+        /**
+         * permet de gerer les erreurs au niveau du modele
+         * @param type $message
+         */
+        function e404($message) {
+        header('HTTP/1.0 404 not found');
+        $this->set('message', $message);
+        $this->render('/errors/404');
+            die();
         }
 
 }
