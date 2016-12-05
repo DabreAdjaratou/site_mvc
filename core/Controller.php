@@ -30,7 +30,7 @@ class Controller {
             $view = root.DIRECTORY_SEPARATOR.'vue'.DIRECTORY_SEPARATOR.$this->request->controller.DIRECTORY_SEPARATOR.$view.'.php';
         }
 
-        ob_start();
+//        ob_start(); 
         require ($view);
         $content_for_layout = ob_get_clean();
         require root . DIRECTORY_SEPARATOR . 'vue' . DIRECTORY_SEPARATOR . 'layout' . DIRECTORY_SEPARATOR . $this->layout . '.php';

@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <title><?php echo isset($title_for_layout) ? $title_for_layout : 'MON SITE'; ?></title>
@@ -7,30 +8,17 @@
     </head>
     <body>
         <nav class="navbar navbar-inverse" role="navigation">
-<div class="navbar-header">
-<a class="navbar-brand" href="#">TutorialsPoint</a>
-</div>
-<div>
-<ul class="nav navbar-nav">
-<li class="active"><a href="#">iOS</a></li>
-<li><a href="#">SVN</a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-Java <b class="caret"></b>
-</a>
-<ul class="dropdown-menu">
-<li><a href="#">jmeter</a></li>
-<li><a href="#">EJB</a></li>
-<li><a href="#">Jasper Report</a></li>
-<li class="divider"></li>
-<li><a href="#">Separated link</a></li>
-<li class="divider"></li>
-<li><a href="#">One more separated link</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</nav>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">MON SITE</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <?php foreach ($pages as $p): ?> 
+                    <li><a href="<?php echo base_url.'/page/view/'.$p->id; ?>" title="<?php echo $p->name; ?>"><?php echo $p->name; ?></a></li>;
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </nav>
 
         <div class="container"> <?php echo $content_for_layout; ?>
         </div>
